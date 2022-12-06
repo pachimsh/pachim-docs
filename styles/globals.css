@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  @apply bg-gray-100;
+  font-family: "Nunito" , "Vazirmatn", "Vazir", -apple-system, BlinkMacSystemFont, Segoe UI,
+  Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  sans-serif;
+}
+
+.Toastify__toast {
+  font-family: "Vazirmatn", "Vazir", -apple-system, BlinkMacSystemFont, Segoe UI,
+  Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+span[type="number"] {
+  @apply bg-transparent text-xs border-0;
+}
+
+
+.tagify__tag {
+  margin: 5px 5px 5px 0 !important;
+}
+
+.tagify__tag__removeBtn {
+  order: unset !important;
+}
+
+.tagify {
+    @apply appearance-none block w-full px-6 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400  sm:text-sm
+}
+
+.tagify.tagify--focus {
+  @apply outline-none border-2 ring-emerald-500 border-emerald-500 !important;
+}
+.ltr {
+  direction: ltr !important
+}
+
+.rtl {
+  direction: rtl
+}
+
+.logo-style-1{fill:#0c4a6e;}
+.logo-style-2{fill:#0ea5e9;}
+.logo-style-3{fill:#fff;}
+
+.Terminal-term {
+  @apply bg-gray-800;
+}
+.Terminal-code {
+  @apply text-sm leading-relaxed text-gray-300 !important;
+}
+
+pre.console {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(17,24,39,var(--tw-bg-opacity));
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  --tw-text-opacity: 1;
+  color: rgba(255,255,255,var(--tw-text-opacity));
+  clear: both;
+  padding: 0;
+  word-break: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  text-align: left;
+}
+
+
+pre.console code, pre.console-light code, pre.console-scroll code {
+  background: 0 0;
+  -webkit-overflow-scrolling: touch;
+  min-width: 100px;
+  padding: 15px 20px;
+  line-height: 1.75;
+}
+
+pre.console code.wrap , pre.console-light code.wrap {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.tippy-box[data-animation="fade"][data-state="hidden"] {
+  opacity: 0;
+}
+[data-tippy-root] {
+  max-width: calc(100vw - 10px);
+}
+.tippy-box {
+  position: relative;
+  background-color: #333;
+  @apply bg-gray-800;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: normal;
+  outline: 0;
+  transition-property: transform, visibility, opacity;
+}
+
+.tippy-box[data-inertia][data-state="visible"] {
+  transition-timing-function: cubic-bezier(0.54, 1.5, 0.38, 1.11);
+}
+
+.tippy-arrow {
+  display: none;
+}
+
+.tippy-content {
+  position: relative;
+  padding: 5px 9px;
+  z-index: 1;
+}
+
+.gerdoo_editor .ace_scrollbar::-webkit-scrollbar , .scroll-style::-webkit-scrollbar  {
+  height: 12px;
+  width: 12px;
+}
+
+.gerdoo_editor .ace_scrollbar::-webkit-scrollbar-track , .scroll-style::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: rgba(93, 89, 89, 0.4); /* Matches ace monokai */
+  border-radius: 10px;
+}
+
+.gerdoo_editor .ace_scrollbar::-webkit-scrollbar-thumb , .scroll-style::-webkit-scrollbar-thumb {
+  background-color: #565353;
+  border-radius: 10px;
+}

@@ -1,0 +1,144 @@
+.content-area {
+  word-break: break-word !important;
+}
+
+.content-area.reply_item {
+  width: calc(100% - 40px);
+}
+
+.content-area h1,
+.content-area h2,
+.content-area h3,
+.content-area h4,
+.content-area h5,
+.content-area h6 {
+  @apply my-5 leading-relaxed;
+}
+
+.content-area pre  {
+  direction: ltr;
+  text-align: left;
+  @apply rounded-md;
+}
+.content-area code {
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace !important;
+}
+
+
+.content-area h1,
+.content-area h2 {
+  @apply text-2xl;
+  @apply relative text-gray-900 font-bold mb-4;
+}
+
+.content-area h3 {
+  @apply text-xl;
+  @apply relative text-gray-900 font-bold;
+}
+
+
+.content-area h4 {
+  @apply text-[20px];
+  @apply relative text-gray-900 font-bold mb-4;
+  @apply leading-10;
+}
+
+.content-area h5 ,
+.content-area h6 {
+  @apply text-base;
+  @apply relative text-gray-900 font-bold mb-4;;
+}
+
+.content-area strong {
+  font-size: inherit !important;
+  @apply font-bold;
+}
+
+.content-area > span {
+  @apply px-1;
+}
+.content-area span strong {
+  font-size: inherit !important;
+  @apply px-1;
+  @apply text-emerald-600;
+}
+
+.content-area p {
+  @apply font-normal text-gray-700 text-base text-right my-5 leading-loose;
+  word-spacing: 1.1px;
+}
+
+.content-area p img {
+  width: auto !important;
+  height: auto !important;
+  margin: auto !important;
+}
+.content-area p code {
+  @apply text-red-600;
+}
+
+.content-area .code {
+  @apply rounded;
+}
+
+
+.content-area img,
+.content-area video,
+.content-area iframe {
+  @apply my-9 mx-6 m-auto;
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.content-area a {
+  @apply text-blue-700 duration-200;
+  font-weight: 500;
+}
+.content-area a:hover {
+  @apply underline;
+}
+
+.content-area a strong {
+  @apply text-blue-700;
+}
+
+.content-area blockquote {
+  @apply bg-gray-50 py-2 px-8  text-gray-800 font-semibold text-lg leading-9 rounded-xl my-5;
+}
+
+.unordered-list-before-bullet::before {
+  content: "";
+  @apply bg-gray-700 absolute transform translate-y-1/2 bottom-1/2 -right-4 rounded-full;
+  width: 8px;
+  height: 8px;
+}
+
+.content-area .listing-item-style {
+  @apply text-gray-700 font-normal text-lg leading-10;
+}
+
+.content-area ul,
+.content-area ol {
+  @apply px-4;
+}
+
+.content-area ul {
+  @apply my-5 mr-4;
+}
+
+.content-area ul li {
+  @apply relative;
+  @apply text-gray-700 font-normal text-base leading-7 list-disc;
+}
+.content-area ul li p {
+  @apply mt-0 mb-0;
+}
+
+.content-area ol {
+  @apply my-5 mr-4;
+  @apply list-decimal;
+}
+.content-area ol li {
+  @apply text-gray-700 font-normal text-lg leading-10;
+}
