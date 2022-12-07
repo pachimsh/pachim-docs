@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+#__next footer{
+  margin-top: auto;
+}
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 html,
 body {
   scroll-behavior: smooth;

@@ -1,6 +1,5 @@
 const plugin = require("tailwindcss/plugin");
 const plugins = [
-    require("@tailwindcss/forms"),
     plugin(function ({ addVariant }) {
         addVariant("important", ({ container }) => {
             container.walkRules((rule) => {
