@@ -1,17 +1,23 @@
-const tailwindConfigPath = `./src/configs/tailwind/modules`;
-const purge = require(`${tailwindConfigPath}/purge`);
-const plugins = require(`${tailwindConfigPath}/plugins`);
-const variants = require(`${tailwindConfigPath}/variants`);
-const container = require(`${tailwindConfigPath}/properties/container`);
+const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
-    container,
   },
   variants: {
-    extend: variants,
+    extend: [],
   },
-  plugins,
+  plugins : [
+    plugin(function ({ addVariant }) {
+      addVariant("important", ({ container }) => {
+        container.walkRules((rule) => {
+          rule.selector = `.\\!${rule.selector.slice(1)}`;
+          rule.walkDecls((decl) => {
+            decl.important = true;
+          });
+        });
+      });
+    }),
+  ],
 };
