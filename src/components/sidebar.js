@@ -20,14 +20,14 @@ const navigation = [
             { name: 'حلقه همکاران', href: '/accounts/circles' },
             { name: 'مدیریت مخزن‌ها', href: '/accounts/source-control' },
             { name: 'کلید‌های SSH', href: '/accounts/ssh' },
-            { name: 'دستور پخت', href: '/accounts/cookbook' },
+            { name: 'دستورالعمل‌های کمکی', href: '/accounts/help-instructions' },
             // { name: 'تگ‌ها', href: '#' },
         ],
     },
     {
         name: 'سرورها',
         children: [
-            { name: 'تهیه سرور', href: '#' },
+            { name: 'تهیه سرور', href: '/servers/the-basic' },
             { name: 'انواع سرورها', href: '#' },
             { name: 'مدیریت', href: '#' },
             { name: 'دسترسی ROOT / امنیت', href: '#' },
