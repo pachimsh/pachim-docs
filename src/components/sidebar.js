@@ -16,7 +16,7 @@ const navigation = [
     {
         name: 'حساب کاربری',
         children: [
-            { name: 'حساب کاربری شما', href: '#' },
+            { name: 'حساب کاربری شما', href: '/accounts/your-account' },
             { name: 'حلقه همکاران', href: '#' },
             { name: 'مدیریت مخزن‌ها', href: '#' },
             { name: 'کلید‌های SSH', href: '#' },

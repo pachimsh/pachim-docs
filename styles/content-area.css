@@ -136,8 +136,12 @@
   @apply px-4;
 }
 
-.content-area ul {
+.content-area > ul {
   @apply my-5 mr-4;
+}
+
+.content-area li > ul {
+  @apply my-2 mr-3;
 }
 
 .content-area ul li {
