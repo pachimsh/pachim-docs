@@ -27,7 +27,7 @@ const navigation = [
     {
         name: 'سرورها',
         children: [
-            { name: 'تهیه سرور', href: '/servers/the-basic' },
+            { name: 'تهیه سرور', href: '/servers/providers' },
             { name: 'انواع سرورها', href: '#' },
             { name: 'مدیریت', href: '#' },
             { name: 'دسترسی ROOT / امنیت', href: '#' },
