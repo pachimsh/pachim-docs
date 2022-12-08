@@ -63,14 +63,14 @@ const navigation = [
 
 export default function Sidebar() {
     const { asPath } = useRouter();
-
+    const route = asPath.split('#')[0];
 
     const checkItemIsActive = (item) => {
-        if(item?.href === asPath) {
+        if(item?.href === route) {
             return true;
         }
 
-        return !!(item?.children && _.find(_.flattenDeep(item.children), ['href', asPath]));
+        return !!(item?.children && _.find(_.flattenDeep(item.children), ['href', route]));
     }
 
 
@@ -108,7 +108,7 @@ export default function Sidebar() {
                         </>
                     )
                     : (
-                        <div className={`${asPath === item.href ? 'font-bold text-sky-700' : ''} flex items-center`}>
+                        <div className={`${route === item.href ? 'font-bold text-sky-700' : ''} flex items-center`}>
                             <MinusSmallIcon className="w-3 h-3 ml-2" />
                             <Link href={item?.href}>
                                 <a>{item?.name}</a>
