@@ -1,6 +1,5 @@
 const express = require("express");
 const next = require("next");
-const notifier = require("node-notifier");
 const path = require("path");
 const open = require("open");
 require("dotenv").config();

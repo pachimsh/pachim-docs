@@ -6,6 +6,14 @@
   width: calc(100% - 40px);
 }
 
+.header-anchor {
+  @apply text-xl relative font-medium top-0.5 pl-2 inline-block text-gray-400;
+}
+
+.header-anchor:hover {
+  @apply text-sky-700;
+}
+
 .content-area h1,
 .content-area h2,
 .content-area h3,
@@ -20,15 +28,20 @@
   text-align: left;
   @apply rounded-md;
 }
+
 .content-area code {
   font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace !important;
 }
 
+.content-area h1 {
+  @apply text-3xl;
+  @apply relative text-gray-900 font-bold mb-4;
+}
 
-.content-area h1,
+
 .content-area h2 {
   @apply text-2xl;
-  @apply relative text-gray-900 font-bold mb-4;
+  @apply relative text-gray-800 font-bold mb-4;
 }
 
 .content-area h3 {
@@ -92,7 +105,7 @@
 }
 
 .content-area a {
-  @apply text-blue-700 duration-200;
+  @apply text-sky-700 duration-200;
   font-weight: 500;
 }
 .content-area a:hover {
@@ -100,7 +113,7 @@
 }
 
 .content-area a strong {
-  @apply text-blue-700;
+  @apply text-sky-700;
 }
 
 .content-area blockquote {
@@ -142,3 +155,29 @@
 .content-area ol li {
   @apply text-gray-700 font-normal text-lg leading-10;
 }
+
+.alert {
+  @apply rounded-lg py-5 px-6 mb-4 text-base mb-3 border-2;
+}
+
+.alert strong {
+  @apply text-lg !important;
+}
+.alert p {
+  @apply my-2 text-inherit;
+}
+
+.alert.warning {
+  @apply  bg-yellow-100 text-yellow-700 border-yellow-500;
+}
+
+.alert.tip {
+  @apply  bg-sky-100 text-sky-700 border-sky-500;
+}
+
+.alert.danger {
+  @apply  bg-red-100 text-red-700 border-red-500;
+}
+
+
+

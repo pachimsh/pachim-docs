@@ -1,7 +1,5 @@
 import "./../../styles/globals.css";
 import "./../../styles/content-area.css";
-import "react-toastify/dist/ReactToastify.css";
-import "@yaireo/tagify/dist/tagify.css"
 
 import React, { useEffect } from "react";
 import Head from "next/head";
