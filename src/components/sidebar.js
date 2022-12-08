@@ -19,8 +19,9 @@ const navigation = [
             { name: 'حساب کاربری شما', href: '/accounts/your-account' },
             { name: 'حلقه همکاران', href: '/accounts/circles' },
             { name: 'مدیریت مخزن‌ها', href: '/accounts/source-control' },
-            { name: 'کلید‌های SSH', href: '#' },
-            { name: 'دستور پخت', href: '#' },
+            { name: 'کلید‌های SSH', href: '/accounts/ssh' },
+            { name: 'دستور پخت', href: '/accounts/cookbook' },
+            // { name: 'تگ‌ها', href: '#' },
         ],
     },
     {

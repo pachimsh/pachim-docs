@@ -19,7 +19,7 @@ import remarkRehype from "remark-rehype";
 import rehypeFormat from "rehype-format";
 import rehypeStringify from "rehype-stringify";
 import {processDirectiveAlertMessage} from "../helpers";
-
+import rehypeHighlight from 'rehype-highlight'
 
 function DocumentationPage({ content , meta }) {
     const { query } = useRouter()
@@ -85,6 +85,7 @@ export async function getStaticProps({ params }) {
                 ]
             }
         })
+        .use(rehypeHighlight)
         .process(processedContent.toString())
 
     return {
