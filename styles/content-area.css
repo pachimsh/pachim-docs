@@ -51,7 +51,7 @@
 
 
 .content-area h4 {
-  @apply text-[20px];
+  @apply text-lg;
   @apply relative text-gray-900 font-bold mb-4;
   @apply leading-10;
 }

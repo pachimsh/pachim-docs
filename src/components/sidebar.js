@@ -29,7 +29,7 @@ const navigation = [
         children: [
             { name: 'تهیه سرور', href: '/servers/providers' },
             { name: 'انواع سرورها', href: '/servers/types' },
-            { name: 'مدیریت', href: '#' },
+            { name: 'مدیریت', href: '/servers/managment' },
             { name: 'دسترسی ROOT / امنیت', href: '#' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '#' },
             { name: 'دیتابیس‌ها', href: '#' },
