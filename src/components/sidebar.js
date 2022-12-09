@@ -30,7 +30,7 @@ const navigation = [
             { name: 'تهیه سرور', href: '/servers/providers' },
             { name: 'انواع سرورها', href: '/servers/types' },
             { name: 'مدیریت', href: '/servers/managment' },
-            { name: 'دسترسی ROOT / امنیت', href: '#' },
+            { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '#' },
             { name: 'دیتابیس‌ها', href: '#' },
             { name: 'PHP', href: '#' },
