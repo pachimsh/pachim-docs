@@ -20,6 +20,7 @@ import rehypeFormat from "rehype-format";
 import rehypeStringify from "rehype-stringify";
 import {processDirectiveAlertMessage} from "../helpers";
 import rehypeHighlight from 'rehype-highlight'
+import remarkGfm from 'remark-gfm'
 
 function DocumentationPage({ content , meta }) {
     const { query } = useRouter()
@@ -64,15 +65,16 @@ export async function getStaticProps({ params }) {
 
     // Use remark to convert markdown into HTML string
     let processedContent = await unified()
+        .use(remarkGfm)
         .use(remarkToc , {
             heading : 'جدول محتوا'
         })
         .use(remarkParse)
         .use(remarkDirective)
         .use(processDirectiveAlertMessage)
-        .use(remarkRehype)
+        .use(remarkRehype, {allowDangerousHtml: true})
         .use(rehypeFormat)
-        .use(rehypeStringify)
+        .use(rehypeStringify, {allowDangerousHtml: true})
         .process(content)
 
     processedContent = await rehype()

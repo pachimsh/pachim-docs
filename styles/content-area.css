@@ -183,5 +183,18 @@
   @apply  bg-red-100 text-red-700 border-red-500;
 }
 
+.content-area table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  display: block;
+  overflow-x: auto;
+}
 
+.content-area tr {
+  border-top: 1px solid #dfe2e5;
+}
 
+.content-area td, .content-area th {
+  border: 1px solid #dfe2e5;
+  padding: 0.6em 1em;
+}

@@ -35,6 +35,7 @@
     "remark": "^14.0.2",
     "remark-autolink-headings": "^7.0.1",
     "remark-directive": "^2.0.1",
+    "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.1",
     "remark-normalize-headings": "^3.0.1",
     "remark-parse": "^10.0.1",
