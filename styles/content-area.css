@@ -197,4 +197,5 @@
 .content-area td, .content-area th {
   border: 1px solid #dfe2e5;
   padding: 0.6em 1em;
+  word-break: normal;
 }
