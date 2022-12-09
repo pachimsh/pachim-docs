@@ -86,8 +86,13 @@
   height: auto !important;
   margin: auto !important;
 }
-.content-area p code {
-  @apply text-red-600;
+.content-area > p code {
+  @apply text-red-600 font-bold text-sm;
+  padding: 0.25rem 0.5rem;
+  direction: ltr !important;
+  display: inline-block;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
 }
 
 .content-area .code {
@@ -162,6 +167,13 @@
 
 .alert {
   @apply rounded-lg py-5 px-6 mb-4 text-base mb-3 border-2;
+}
+
+.alert code {
+  @apply bg-gray-900 bg-opacity-10 px-1;
+  font-weight: bold;
+  color : inherit !important;
+  font-family: inherit !important;
 }
 
 .alert strong {
