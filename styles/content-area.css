@@ -165,11 +165,15 @@
   @apply text-gray-700 font-normal text-lg leading-10;
 }
 
-.alert {
+.content-area .alert {
   @apply rounded-lg py-5 px-6 mb-4 text-base mb-3 border-2;
 }
 
-.alert code {
+.content-area .alert a {
+  color: inherit !important;
+}
+
+.content-area .alert code {
   @apply bg-gray-900 bg-opacity-10 px-1;
   font-weight: bold;
   color : inherit !important;

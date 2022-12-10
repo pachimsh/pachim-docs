@@ -33,7 +33,7 @@ const navigation = [
             { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
             { name: 'دیتابیس‌ها', href: '/servers/databases' },
-            { name: 'PHP', href: '#' },
+            { name: 'PHP', href: '/servers/php' },
             { name: 'احرازهویت Composer', href: '#' },
             { name: 'توزیع بار', href: '#' },
             { name: 'قالب Nginx', href: '#' },
@@ -43,7 +43,7 @@ const navigation = [
             { name: 'کش‌ها', href: '#' },
             { name: 'شبکه', href: '#' },
             { name: 'زمانبدی (Scheduler)', href: '#' },
-            { name: 'دستور پخت', href: '#' },
+            { name: 'دستورالعمل‌های کمکی', href: '/servers/help-instructions' },
         ],
     },
     {
