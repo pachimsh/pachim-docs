@@ -36,7 +36,7 @@ const navigation = [
             { name: 'PHP', href: '/servers/php' },
             { name: 'احرازهویت Composer', href: '/servers/composer-packages' },
             { name: 'توزیع بار', href: '/servers/load-balancing' },
-            { name: 'قالب Nginx', href: '#' },
+            { name: 'قالب Nginx', href: '/servers/nginx-templates' },
             { name: 'پشتیبانی گیری دیتابیس', href: '#' },
             { name: 'ماینتور سرور', href: '#' },
             { name: 'سرپرست', href: '/servers/supervisor' },

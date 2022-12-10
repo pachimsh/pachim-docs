@@ -204,13 +204,24 @@
   margin: 1rem 0;
   display: block;
   overflow-x: auto;
+  @apply text-gray-700;
 }
 
-.content-area tr {
+.content-area table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.content-area table tr {
   border-top: 1px solid #dfe2e5;
 }
 
-.content-area td, .content-area th {
+.content-area table code {
+  @apply bg-gray-600 text-gray-800 bg-opacity-5 px-1 inline-block;
+  direction: ltr;
+  font-family: inherit !important;
+}
+
+.content-area table td, .content-area table th {
   border: 1px solid #dfe2e5;
   padding: 0.6em 1em;
   word-break: normal;
