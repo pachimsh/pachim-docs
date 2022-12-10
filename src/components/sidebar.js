@@ -35,7 +35,7 @@ const navigation = [
             { name: 'دیتابیس‌ها', href: '/servers/databases' },
             { name: 'PHP', href: '/servers/php' },
             { name: 'احرازهویت Composer', href: '/servers/composer-packages' },
-            { name: 'توزیع بار', href: '#' },
+            { name: 'توزیع بار', href: '/servers/load-balancing' },
             { name: 'قالب Nginx', href: '#' },
             { name: 'پشتیبانی گیری دیتابیس', href: '#' },
             { name: 'ماینتور سرور', href: '#' },
