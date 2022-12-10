@@ -34,7 +34,7 @@ const navigation = [
             { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
             { name: 'دیتابیس‌ها', href: '/servers/databases' },
             { name: 'PHP', href: '/servers/php' },
-            { name: 'احرازهویت Composer', href: '#' },
+            { name: 'احرازهویت Composer', href: '/servers/composer-packages' },
             { name: 'توزیع بار', href: '#' },
             { name: 'قالب Nginx', href: '#' },
             { name: 'پشتیبانی گیری دیتابیس', href: '#' },
