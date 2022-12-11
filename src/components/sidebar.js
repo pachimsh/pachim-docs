@@ -42,7 +42,7 @@ const navigation = [
             { name: 'سرپرست', href: '/servers/supervisor' },
             { name: 'کش‌ها', href: '/servers/caches' },
             { name: 'شبکه', href: '/servers/network' },
-            { name: 'زمانبدی (Scheduler)', href: '#' },
+            { name: 'زمانبدی (Scheduler)', href: '/servers/scheduler' },
             { name: 'دستورالعمل‌های کمکی', href: '/servers/help-instructions' },
         ],
     },
