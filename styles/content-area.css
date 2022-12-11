@@ -199,6 +199,10 @@
   @apply  bg-red-100 text-red-700 border-red-500;
 }
 
+.alert pre code.hljs {
+  color: white!important;
+}
+
 .content-area table {
   border-collapse: collapse;
   margin: 1rem 0;

@@ -41,7 +41,7 @@ const navigation = [
             { name: 'ماینتور سرور', href: '#' },
             { name: 'سرپرست', href: '/servers/supervisor' },
             { name: 'کش‌ها', href: '/servers/caches' },
-            { name: 'شبکه', href: '#' },
+            { name: 'شبکه', href: '/servers/network' },
             { name: 'زمانبدی (Scheduler)', href: '#' },
             { name: 'دستورالعمل‌های کمکی', href: '/servers/help-instructions' },
         ],
