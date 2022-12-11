@@ -40,7 +40,7 @@ const navigation = [
             { name: 'پشتیبانی گیری دیتابیس', href: '#' },
             { name: 'ماینتور سرور', href: '#' },
             { name: 'سرپرست', href: '/servers/supervisor' },
-            { name: 'کش‌ها', href: '#' },
+            { name: 'کش‌ها', href: '/servers/caches' },
             { name: 'شبکه', href: '#' },
             { name: 'زمانبدی (Scheduler)', href: '#' },
             { name: 'دستورالعمل‌های کمکی', href: '/servers/help-instructions' },
