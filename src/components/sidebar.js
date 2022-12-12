@@ -2,7 +2,6 @@ import { Disclosure } from '@headlessui/react'
 import Link from "next/link";
 import {ChevronDownIcon, ChevronLeftIcon, MinusSmallIcon} from "@heroicons/react/24/outline";
 import {useRouter} from "next/router";
-import _ from "lodash";
 
 const navigation = [
     { name: 'آموزش ویدیویی', href: '#' },
@@ -50,18 +49,34 @@ const navigation = [
     {
         name: 'سایت‌ها',
         children: [
-            // {
-            //     name: 'برنامه‌ها اصلی'
-            //     , children: [
-            //         { name: 'لاراول و PHP', href: '#' },
-            //         { name: 'Node.js', href: '#' },
-            //
-            //     ],
-            // },
+            {
+                name: 'برنامه‌های اصلی'
+                , children: [
+                    { name: 'PHP', href: '#' },
+                    {
+                        name: 'لاراول ',
+                        children: [
+                            { name : 'راه‌‌اندازی' , href : '#'},
+                            { name: 'صف‌ها' , href : '/sites/laravel/queues'}
+                        ]
+                    },
+                    { name: 'Node.js', href: '#' },
+                    { name: 'Next.js', href: '#' },
+                    { name: 'Nuxt.js', href: '#' },
+                    { name: 'Vue', href: '#' },
+                    { name: 'React', href: '#' },
+                ],
+            },
+            {
+                name: 'برنامه‌های آماده'
+                , children: [
+                    { name: 'وردپرس', href: '#' },
+                    { name: 'phpMyAdmin', href: '#' },
+                ],
+            },
             { name: 'استقرارها', href: '#' },
             { name: 'اجرای کامند', href: '/sites/commands' },
             { name: 'پکیج‌های PHP', href: '/sites/php-packages' },
-            { name: 'صف‌ها', href: '#' },
             { name: 'قوانین امنیتی', href: '#' },
             { name: 'گواهی SSL', href: '#' },
             { name: 'ایزوله سازی کاربر', href: '#' },
@@ -70,6 +85,18 @@ const navigation = [
         ],
     },
 ]
+
+const deepFlatten = (items) => {
+    const flatten = JSON.parse(JSON.stringify(items)) // deep copy of items;
+    for (let i = 0; i < flatten.length; i++) {
+        if (flatten[i].hasOwnProperty('children')) {
+            flatten.splice(i + 1, 0, ...flatten[i].children)
+            delete flatten[i].children
+        }
+    }
+
+    return flatten
+}
 
 export default function Sidebar() {
     const { asPath } = useRouter();
@@ -80,7 +107,8 @@ export default function Sidebar() {
             return true;
         }
 
-        return !!(item?.children && _.find(_.flattenDeep(item.children), ['href', route]));
+
+        return !!(item?.children && deepFlatten(item.children).find(i => i.href === route));
     }
 
 
