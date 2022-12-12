@@ -74,7 +74,7 @@ export const navigation = [
             { name: 'پکیج‌های PHP', href: '/sites/php-packages' },
             { name: 'قوانین امنیتی', href: '/sites/security-rules' },
             { name: 'تغییر مسیرها', href: '/sites/redirects' },
-            { name: 'گواهی SSL', href: '#' },
+            { name: 'گواهی SSL', href: '/sites/ssl' },
             { name: 'ایزوله سازی سایت', href: '/sites/user-isolation' },
             { name: 'لاگ سایت', href: '/sites/logs' },
             { name: 'دستورالعمل‌های کمکی', href: '#' },
