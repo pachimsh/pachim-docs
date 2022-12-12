@@ -30,6 +30,7 @@ const navigation = [
             { name: 'تهیه سرور', href: '/servers/providers' },
             { name: 'انواع سرورها', href: '/servers/types' },
             { name: 'مدیریت', href: '/servers/managment' },
+            { name : 'دستورالعمل‌ها' , href: '/servers/instructions'  } , // TODO : must build this page
             { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
             { name: 'دیتابیس‌ها', href: '/servers/databases' },
@@ -49,15 +50,23 @@ const navigation = [
     {
         name: 'سایت‌ها',
         children: [
-            { name: 'موارد پایه', href: '#' },
+            // {
+            //     name: 'برنامه‌ها اصلی'
+            //     , children: [
+            //         { name: 'لاراول و PHP', href: '#' },
+            //         { name: 'Node.js', href: '#' },
+            //
+            //     ],
+            // },
             { name: 'استقرارها', href: '#' },
-            { name: 'اجرای کامند', href: '#' },
+            { name: 'اجرای کامند', href: '/sites/commands' },
             { name: 'احرازهویت Composer', href: '#' },
             { name: 'صف‌ها', href: '#' },
             { name: 'قوانین امنیتی', href: '#' },
             { name: 'گواهی SSL', href: '#' },
             { name: 'ایزوله سازی کاربر', href: '#' },
-            { name: 'دستور پخت', href: '#' },
+            { name: 'لاگ سایت', href: '#' },
+            { name: 'دستورالعمل‌های کمکی', href: '#' },
         ],
     },
 ]
