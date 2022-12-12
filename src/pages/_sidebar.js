@@ -75,7 +75,7 @@ export const navigation = [
             { name: 'قوانین امنیتی', href: '/sites/security-rules' },
             { name: 'تغییر مسیرها', href: '/sites/redirects' },
             { name: 'گواهی SSL', href: '#' },
-            { name: 'ایزوله سازی کاربر', href: '#' },
+            { name: 'ایزوله سازی سایت', href: '/sites/user-isolation' },
             { name: 'لاگ سایت', href: '#' },
             { name: 'دستورالعمل‌های کمکی', href: '#' },
         ],
