@@ -33,3 +33,23 @@ export const processDirectiveAlertMessage = () => {
         })
     }
 }
+
+export const deepFlatten = (items) => {
+    const flatten = JSON.parse(JSON.stringify(items)) // deep copy of items;
+    for (let i = 0; i < flatten.length; i++) {
+        if (flatten[i].hasOwnProperty('children')) {
+            flatten.splice(i + 1, 0, ...flatten[i].children)
+            delete flatten[i].children
+        }
+    }
+
+    return flatten
+}
+
+export const checkSidebarItemIsActive = (item , route) => {
+    if(item?.href === route) {
+        return true;
+    }
+
+    return !!(item?.children && deepFlatten(item.children).find(i => i.href === route));
+}

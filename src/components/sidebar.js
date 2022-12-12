@@ -2,116 +2,12 @@ import { Disclosure } from '@headlessui/react'
 import Link from "next/link";
 import {ChevronDownIcon, ChevronLeftIcon, MinusSmallIcon} from "@heroicons/react/24/outline";
 import {useRouter} from "next/router";
-
-const navigation = [
-    { name: 'آموزش ویدیویی', href: '#' },
-    {
-        name: 'شروع مستندات',
-        open : true,
-        children: [
-            { name: 'معرفی پَچیم', href: '/getting-started/introduction' },
-        ],
-    },
-    {
-        name: 'حساب کاربری',
-        children: [
-            { name: 'حساب کاربری شما', href: '/accounts/your-account' },
-            { name: 'حلقه همکاران', href: '/accounts/circles' },
-            { name: 'مدیریت مخزن‌ها', href: '/accounts/source-control' },
-            { name: 'کلید‌های SSH', href: '/accounts/ssh' },
-            { name: 'دستورالعمل‌های کمکی', href: '/accounts/help-instructions' },
-            // { name: 'تگ‌ها', href: '#' },
-        ],
-    },
-    {
-        name: 'سرورها',
-        children: [
-            { name: 'تهیه سرور', href: '/servers/providers' },
-            { name: 'انواع سرورها', href: '/servers/types' },
-            { name: 'مدیریت', href: '/servers/managment' },
-            { name : 'دستورالعمل‌ها' , href: '/servers/instructions'  } , // TODO : must build this page
-            { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
-            { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
-            { name: 'دیتابیس‌ها', href: '/servers/databases' },
-            { name: 'PHP', href: '/servers/php' },
-            { name: 'پکیج‌های PHP', href: '/servers/php-packages' },
-            { name: 'توزیع بار', href: '/servers/load-balancing' },
-            { name: 'قالب Nginx', href: '/servers/nginx-templates' },
-            { name: 'پشتیبانی گیری دیتابیس', href: '#' },
-            { name: 'ماینتور سرور', href: '#' },
-            { name: 'سرپرست', href: '/servers/supervisor' },
-            { name: 'کش‌ها', href: '/servers/caches' },
-            { name: 'شبکه', href: '/servers/network' },
-            { name: 'زمانبدی (Scheduler)', href: '/servers/scheduler' },
-            { name: 'دستورالعمل‌های کمکی', href: '/servers/help-instructions' },
-        ],
-    },
-    {
-        name: 'سایت‌ها',
-        children: [
-            {
-                name: 'برنامه‌های اصلی'
-                , children: [
-                    { name: 'PHP', href: '#' },
-                    {
-                        name: 'لاراول ',
-                        children: [
-                            { name : 'راه‌‌اندازی' , href : '#'},
-                            { name: 'صف‌ها' , href : '/sites/laravel/queues'}
-                        ]
-                    },
-                    { name: 'Node.js', href: '#' },
-                    { name: 'Next.js', href: '#' },
-                    { name: 'Nuxt.js', href: '#' },
-                    { name: 'Vue', href: '#' },
-                    { name: 'React', href: '#' },
-                ],
-            },
-            {
-                name: 'برنامه‌های آماده'
-                , children: [
-                    { name: 'وردپرس', href: '#' },
-                    { name: 'phpMyAdmin', href: '#' },
-                ],
-            },
-            { name: 'استقرارها', href: '#' },
-            { name: 'اجرای کامند', href: '/sites/commands' },
-            { name: 'پکیج‌های PHP', href: '/sites/php-packages' },
-            { name: 'قوانین امنیتی', href: '#' },
-            { name: 'گواهی SSL', href: '#' },
-            { name: 'ایزوله سازی کاربر', href: '#' },
-            { name: 'لاگ سایت', href: '#' },
-            { name: 'دستورالعمل‌های کمکی', href: '#' },
-        ],
-    },
-]
-
-const deepFlatten = (items) => {
-    const flatten = JSON.parse(JSON.stringify(items)) // deep copy of items;
-    for (let i = 0; i < flatten.length; i++) {
-        if (flatten[i].hasOwnProperty('children')) {
-            flatten.splice(i + 1, 0, ...flatten[i].children)
-            delete flatten[i].children
-        }
-    }
-
-    return flatten
-}
+import {checkSidebarItemIsActive} from "../helpers";
+import {navigation} from "../pages/_sidebar";
 
 export default function Sidebar() {
     const { asPath } = useRouter();
     const route = asPath.split('#')[0];
-
-    const checkItemIsActive = (item) => {
-        if(item?.href === route) {
-            return true;
-        }
-
-
-        return !!(item?.children && deepFlatten(item.children).find(i => i.href === route));
-    }
-
-
 
     const printCategoryChildren = (item , index) => {
         return (
@@ -120,7 +16,7 @@ export default function Sidebar() {
                     (item?.children && item.children.length)
                     ? (
                         <>
-                            <Disclosure defaultOpen={( item?.open || checkItemIsActive(item)) ?? false}>
+                            <Disclosure defaultOpen={( item?.open || checkSidebarItemIsActive(item , route)) ?? false}>
                                 {({ open }) => (
                                     /* Use the `open` state to conditionally change the direction of an icon. */
                                     <>
@@ -158,7 +54,6 @@ export default function Sidebar() {
             </div>
         )
     }
-
 
     return (
         <div className="flex-grow mt-5 flex flex-col">
