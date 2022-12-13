@@ -44,15 +44,16 @@ export const navigation = [
     {
         name: 'سایت‌ها',
         children: [
+            { name: 'نکات پایه', href: '#' },
             {
                 name: 'برنامه‌های اصلی'
                 , children: [
-                    { name: 'PHP', href: '#' },
+                    { name: 'PHP', href: '/sites/app-deploy/php' },
                     {
                         name: 'لاراول ',
                         children: [
                             { name : 'راه‌‌اندازی' , href : '#'},
-                            { name: 'صف‌ها' , href : '/sites/laravel/queues'}
+                            { name: 'صف‌ها' , href : '/sites/app-deploy/laravel/queues'}
                         ]
                     },
                     { name: 'Node.js', href: '#' },
@@ -69,7 +70,7 @@ export const navigation = [
                     { name: 'phpMyAdmin', href: '#' },
                 ],
             },
-            { name: 'استقرارها', href: '#' },
+            { name: 'استقرارها', href: '/sites/deployments' },
             { name: 'اجرای کامند', href: '/sites/commands' },
             { name: 'پکیج‌های PHP', href: '/sites/php-packages' },
             { name: 'قوانین امنیتی', href: '/sites/security-rules' },
