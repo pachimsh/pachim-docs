@@ -77,7 +77,7 @@ export const navigation = [
             { name: 'گواهی SSL', href: '/sites/ssl' },
             { name: 'ایزوله سازی سایت', href: '/sites/user-isolation' },
             { name: 'لاگ سایت', href: '/sites/logs' },
-            { name: 'دستورالعمل‌های کمکی', href: '#' },
+            { name: 'دستورالعمل‌های کمکی', href: '/sites/help-instructions' },
         ],
     },
 ]
