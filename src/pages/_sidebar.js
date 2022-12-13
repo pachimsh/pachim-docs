@@ -1,5 +1,5 @@
 export const navigation = [
-    { name: 'آموزش ویدیویی', href: '#' },
+    { name: 'آموزش ویدیویی', href: 'https://roocket.ir/series/server-managment-with-pachim' },
     {
         name: 'شروع مستندات',
         open : true,
@@ -44,7 +44,7 @@ export const navigation = [
     {
         name: 'سایت‌ها',
         children: [
-            { name: 'نکات پایه', href: '#' },
+            { name: 'مقدمات', href: '/sites/basics' },
             {
                 name: 'برنامه‌های اصلی'
                 , children: [

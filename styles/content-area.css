@@ -193,12 +193,19 @@
   @apply my-2 text-inherit;
 }
 
+.alert ul {
+  @apply pr-8;
+}
+.alert li {
+  color: inherit !important;
+}
+
 .alert.warning {
   @apply  bg-yellow-100 text-yellow-700 border-yellow-500;
 }
 
 .alert.tip {
-  @apply  bg-sky-100 text-sky-700 border-sky-500;
+  @apply bg-sky-100 text-sky-700 border-sky-500;
 }
 
 .alert.danger {
