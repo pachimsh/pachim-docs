@@ -3,7 +3,7 @@ import "./../../styles/content-area.css";
 
 import React, { useEffect } from "react";
 import Head from "next/head";
-
+import NextNProgress from 'nextjs-progressbar';
 
 function MyApp({ Component, pageProps }) {
 
@@ -30,6 +30,7 @@ function MyApp({ Component, pageProps }) {
             <script async type="text/javascript" src="/js/pachim-support.js" />
           </Head>
           <>
+              <NextNProgress />
               { getLayout(<Component {...pageProps} />) }
           </>
         </>
