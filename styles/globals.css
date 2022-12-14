@@ -127,7 +127,6 @@ a {
 
 pre {
   direction: ltr;
-  max-height: 40em;
   overflow-x: auto;
   border-radius: 4px;
   @apply my-6 bg-black;

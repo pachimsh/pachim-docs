@@ -44,7 +44,16 @@ export const navigation = [
     {
         name: 'سایت‌ها',
         children: [
-            { name: 'مقدمات', href: '/sites/basics' },
+            {
+                name: 'راه اندازی سایت',
+                children: [
+                    { name : 'انواع برنامه‌ها' , href : '/sites/setup-site/project-types'},
+                    { name: 'ایجاد سایت' , href : '/sites/setup-site/create-site'},
+                    { name : 'اتصال دامنه به سایت' , href : '/sites/setup-site/connect-domain-to-site'},
+                    { name : 'راه‌اندازی پروژه' , href : '/sites/setup-site/setup-application'},
+                    { name : 'توضیحات تکمیلی' , href : '/sites/setup-site/tips'},
+                ]
+            },
             {
                 name: 'برنامه‌های اصلی'
                 , children: [

@@ -21,6 +21,7 @@ import rehypeStringify from "rehype-stringify";
 import {processDirectiveAlertMessage} from "../helpers";
 import rehypeHighlight from 'rehype-highlight'
 import remarkGfm from 'remark-gfm'
+import nginx from 'highlight.js/lib/languages/nginx'
 
 function DocumentationPage({ content , meta }) {
     const { query } = useRouter()
@@ -87,7 +88,9 @@ export async function getStaticProps({ params }) {
                 ]
             }
         })
-        .use(rehypeHighlight)
+        .use(rehypeHighlight , {
+            languages: { nginx }
+        })
         .process(processedContent.toString())
 
     return {
