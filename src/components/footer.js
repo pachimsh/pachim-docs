@@ -2,12 +2,12 @@ import Link from "next/link";
 
 const navigation = {
     main: [
-        { name: 'پلن‌ها', href: 'https://pachim.sh/#pricing' },
-        { name: 'بلاگ', href: 'https://pachim.sh/blog' },
+        { name: 'پلن‌ها', href: `${process.env.PACHIM_MAIN_SITE}/#pricing` },
+        { name: 'بلاگ', href: `${process.env.PACHIM_MAIN_SITE}/blog` },
         { name: 'مستندات', href: '/' },
-        { name: 'درباره ما', href: 'https://pachim.sh/about-us' },
-        { name: 'ارتباط با ما', href: 'https://pachim.sh/contact-us' },
-        { name: 'قوانین و مقررات', href: 'https://pachim.sh/terms' },
+        { name: 'درباره ما', href: `${process.env.PACHIM_MAIN_SITE}/about-us` },
+        { name: 'ارتباط با ما', href: `${process.env.PACHIM_MAIN_SITE}/contact-us` },
+        { name: 'قوانین و مقررات', href: `${process.env.PACHIM_MAIN_SITE}/terms` },
     ],
     social: [
         {
