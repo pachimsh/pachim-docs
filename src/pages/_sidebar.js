@@ -24,7 +24,7 @@ export const navigation = [
             { name: 'تهیه سرور', href: '/servers/providers' },
             { name: 'انواع سرورها', href: '/servers/types' },
             { name: 'مدیریت', href: '/servers/managment' },
-            { name : 'دستورالعمل‌ها' , href: '/servers/instructions'  } , // TODO : must build this page
+            { name : 'دستورالعمل‌ها' , href: '/servers/recipes'  } ,
             { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
             { name: 'دیتابیس‌ها', href: '/servers/databases' },
