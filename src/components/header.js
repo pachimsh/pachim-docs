@@ -27,6 +27,7 @@ const resources = [
 ]
 
 export default function Header() {
+
     return (
         <Popover className="relative bg-white border-b-2 border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -56,11 +57,11 @@ export default function Header() {
                     </div>
 
                     <div className="hidden md:flex items-center justify-end">
-                        <Link href={`${process.env.PACHIM_MAIN_SITE}/auth/login`}>
+                        <Link href={`${process.env.PACHIM_USER_APP_SITE}/auth/login`}>
                             <a className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">ورود</a>
                         </Link>
                         <Link
-                            href={`${process.env.PACHIM_MAIN_SITE}/auth/register`}
+                            href={`${process.env.PACHIM_USER_APP_SITE}/auth/register`}
                         >
                             <a className="mr-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-600 hover:bg-sky-700">
                                 ایجاد حساب کاربری
@@ -107,12 +108,12 @@ export default function Header() {
                                 ))}
                             </div>
                             <div>
-                                <Link href={`${process.env.PACHIM_MAIN_SITE}/auth/register`}>
+                                <Link href={`${process.env.PACHIM_USER_APP_SITE}/auth/register`}>
                                     <a className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-600 hover:bg-sky-700">ایجاد حساب کاربری</a>
                                 </Link>
                                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                                     در پچیم اکانت دارید؟{' '}
-                                    <Link href={`${process.env.PACHIM_MAIN_SITE}/auth/login`} >
+                                    <Link href={`${process.env.PACHIM_USER_APP_SITE}/auth/login`} >
                                         <a className="text-sky-600 hover:text-sky-500">ورود</a>
                                     </Link>
                                 </p>
