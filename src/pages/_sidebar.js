@@ -33,7 +33,7 @@ export const navigation = [
             { name: 'پکیج‌های PHP', href: '/servers/php-packages' },
             { name: 'توزیع بار', href: '/servers/load-balancing' },
             { name: 'قالب Nginx', href: '/servers/nginx-templates' },
-            { name: 'ماینتور سرور', href: '#' },
+            { name: 'ماینتور سرور', href: '/servers/monitoring' },
             { name: 'سرپرست', href: '/servers/supervisor' },
             { name: 'کش‌ها', href: '/servers/caches' },
             { name: 'شبکه', href: '/servers/network' },
