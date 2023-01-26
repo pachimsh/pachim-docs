@@ -83,7 +83,7 @@ title : 'انواع سرورها'
         </tr>
         <tr>
             <td scope="col"> سرور MeiliSearch</td>
-            <td align="middle"></td>
+            <td align="middle">✅</td>
             <td align="middle"></td>
             <td align="middle"></td>
             <td align="middle"></td>
@@ -176,7 +176,9 @@ title : 'انواع سرورها'
 
 ### سرور Meiliserch
 
-به زودی توضیحات اضافه می‌شود.
+[**MeiliSearch**](https://www.meilisearch.com/) یک ابزار موتور قدرتمند و فوق سریع برای پیاده‌سازی کردن جستجو در اپلیکیشن‌های شماست که ما در پَچیم برای نصب MeiliSearch سرور آن را پیشنهاد می‌دهیم.
+
+برای آنکه تجربه بدون نقص با MeiliSearch داشته باشید ما اجازه نصب Meilisearch در سرور‌های اپلیکیشن را به شما نمی‌دهیم و برای اینکار لازم است یک سرور جداگانه تهیه کنید و با استفاده از پَچیم MeiliSearch را بر روی آن راه‌اندازی کنید.
 
 ### سرور توزیع بار
 
