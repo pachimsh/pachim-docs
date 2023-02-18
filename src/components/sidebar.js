@@ -3,7 +3,7 @@ import Link from "next/link";
 import {ChevronDownIcon, ChevronLeftIcon, MinusSmallIcon} from "@heroicons/react/24/outline";
 import {useRouter} from "next/router";
 import {checkSidebarItemIsActive} from "../helpers";
-import {navigation} from "../pages/_sidebar";
+import navigation from "../_sidebar";
 
 export default function Sidebar() {
     const { asPath } = useRouter();

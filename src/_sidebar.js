@@ -1,4 +1,4 @@
-export const navigation = [
+const navigation = [
     { name: 'آموزش ویدیویی', href: 'https://roocket.ir/series/server-managment-with-pachim' },
     {
         name: 'شروع مستندات',
@@ -91,3 +91,5 @@ export const navigation = [
         ],
     },
 ]
+
+export default navigation;
