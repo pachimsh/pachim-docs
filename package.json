@@ -13,6 +13,7 @@
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-transform-define": "^2.0.1",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
     "express": "^4.17.2",
     "fs": "^0.0.1-security",
