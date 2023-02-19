@@ -28,7 +28,7 @@ const navigation = [
             { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
             { name: 'دیتابیس‌ها', href: '/servers/databases' },
-            { name: 'پشتیبانی گیری دیتابیس', href: '/servers/backups' },
+            { name: 'پشتیبانی گیری', href: '/servers/backups' },
             { name: 'PHP', href: '/servers/php' },
             { name: 'پکیج‌های PHP', href: '/servers/php-packages' },
             { name: 'توزیع بار', href: '/servers/load-balancing' },
