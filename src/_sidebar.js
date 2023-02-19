@@ -12,6 +12,7 @@ const navigation = [
         children: [
             { name: 'حساب کاربری شما', href: '/accounts/your-account' },
             { name: 'حلقه همکاران', href: '/accounts/circles' },
+            { name: 'ارائه دهنده‌های سرور', href: '/accounts/server-providers' },
             { name: 'مدیریت مخزن‌ها', href: '/accounts/source-control' },
             { name: 'کلید‌های SSH', href: '/accounts/ssh' },
             { name: 'مخزن‌های پشتیبان‌گیری', href: '/accounts/backup-configurations' },
