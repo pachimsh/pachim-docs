@@ -14,8 +14,8 @@ const navigation = [
             { name: 'حلقه همکاران', href: '/accounts/circles' },
             { name: 'مدیریت مخزن‌ها', href: '/accounts/source-control' },
             { name: 'کلید‌های SSH', href: '/accounts/ssh' },
+            { name: 'مخزن‌های پشتیبان‌گیری', href: '/accounts/backup-configurations' },
             { name: 'دستورالعمل‌های کمکی', href: '/accounts/help-instructions' },
-            // { name: 'تگ‌ها', href: '#' },
         ],
     },
     {
