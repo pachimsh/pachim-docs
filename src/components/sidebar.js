@@ -1,11 +1,15 @@
 import { Disclosure } from '@headlessui/react'
 import Link from "next/link";
-import {ChevronDownIcon, ChevronLeftIcon, MinusSmallIcon} from "@heroicons/react/24/outline";
+import {ChevronDownIcon, ChevronLeftIcon, MagnifyingGlassIcon, MinusSmallIcon} from "@heroicons/react/24/outline";
 import {useRouter} from "next/router";
 import {checkSidebarItemIsActive} from "../helpers";
 import navigation from "../_sidebar";
+import {useState} from "react";
+import SearchBox from "./searchBox";
 
 export default function Sidebar() {
+    const [showSearchBox , setShowSearchBox] = useState(false);
+
     const { asPath } = useRouter();
     const route = asPath.split('#')[0];
 
@@ -57,6 +61,12 @@ export default function Sidebar() {
 
     return (
         <div className="flex-grow mt-5 flex flex-col">
+            { showSearchBox && <SearchBox setShowSearchBox={setShowSearchBox} /> }
+
+            <div className="flex items-center ml-2 bg-gray-50 text-gray-700 rounded-lg border mb-4 py-3 px-4 text-sm" onClick={() => setShowSearchBox(true)}>
+                <MagnifyingGlassIcon className="w-5 ml-2" />
+                <span className="flex cursor-pointer items-center font-semibold">اگر دنبال چیزی میگردی</span>
+            </div>
             <nav className="flex-1 px-2 space-y-3 pb-24">
                 { navigation.map(printCategoryChildren) }
             </nav>

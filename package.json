@@ -5,7 +5,8 @@
     "dev": "node ./src/server.js",
     "build": "next build",
     "start": "cross-env NODE_ENV=production node ./src/server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cache-posts": "node scripts/cache.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
@@ -17,6 +18,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.17.2",
     "fs": "^0.0.1-security",
+    "fuse.js": "^6.6.2",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "marked": "^4.2.4",
@@ -50,8 +52,14 @@
     "autoprefixer": "10.4.5",
     "eslint": "8.5.0",
     "eslint-config-next": "12.0.7",
+    "husky": "^8.0.3",
     "postcss": "^8.4.5",
     "raw.macro": "^0.4.2",
     "tailwindcss": "^3.0.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn cache-posts && git add cache/data.js"
+    }
   }
 }
