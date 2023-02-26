@@ -33,7 +33,7 @@ function DocumentationPage({ content , meta }) {
             </Head>
             <div className="mx-auto w-full px-4 sm:px-6 md:px-8 pb-24">
                 <div className="content-area" dangerouslySetInnerHTML={{ __html : content }} />
-                <a href={`https://github.com/hesammousavi/pachim-docs/edit/main/src/docs/${query.doc.join('/')}.md`} className="text-gray-500 flex items-center hover:text-sky-700 mt-10">
+                <a href={`https://github.com/pachimsh/pachim-docs/edit/main/src/docs/${query.doc.join('/')}.md`} className="text-gray-500 flex items-center hover:text-sky-700 mt-10">
                     <ArrowTopRightOnSquareIcon className="w-4 h-4 ml-2"/>
                     تغییر این صفحه در گیت‌هاب
                 </a>
