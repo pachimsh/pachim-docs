@@ -62,7 +62,7 @@ const navigation = [
                     {
                         name: 'لاراول ',
                         children: [
-                            { name : 'راه‌‌اندازی' , href : '#'},
+                            { name : 'راه‌‌اندازی' , href : '/sites/app-deploy/laravel/setup'},
                             { name: 'صف‌ها' , href : '/sites/app-deploy/laravel/queues'}
                         ]
                     },
