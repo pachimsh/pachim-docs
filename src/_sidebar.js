@@ -66,11 +66,12 @@ const navigation = [
                             { name: 'صف‌ها' , href : '/sites/app-deploy/laravel/queues'}
                         ]
                     },
-                    { name: 'Node.js', href: '#' },
-                    { name: 'Next.js', href: '#' },
-                    { name: 'Nuxt.js', href: '#' },
-                    { name: 'Vue', href: '#' },
-                    { name: 'React', href: '#' },
+                    { name: 'Node.js', href: '/sites/app-deploy/nodejs' },
+                    { name: 'Next.js', href: '/sites/app-deploy/nextjs' },
+                    { name: 'Nuxt.js', href: '/sites/app-deploy/nuxtjs' },
+                    { name: 'Static', href: '/sites/app-deploy/static' },
+                    { name: 'Vue', href: '/sites/app-deploy/vue' },
+                    { name: 'React', href: '/sites/app-deploy/react' },
                 ],
             },
             {
