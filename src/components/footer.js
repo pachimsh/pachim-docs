@@ -84,7 +84,7 @@ export default function Footer() {
                         </a>
                     ))}
                 </div>
-                <p className="mt-8 text-center text-base text-gray-400">&copy; 2022 Pachim ,  تمام حقوق مادی و معنوی برای پَچیم محفوظ است.</p>
+                <p className="mt-8 text-center text-base text-gray-400">&copy; 2023 Pachim ,  تمام حقوق مادی و معنوی برای پَچیم محفوظ است. | توسعه داده شده توسط <a href="https://roocket.ir" className="font-bold text-red-600 hover:underline" target="_blank">راکت 🚀 </a></p>
             </div>
         </footer>
     )
