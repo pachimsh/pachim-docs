@@ -77,7 +77,7 @@ const navigation = [
             {
                 name: 'برنامه‌های آماده'
                 , children: [
-                    { name: 'وردپرس', href: '#' },
+                    { name: 'وردپرس', href: '/sites/pre-ready-app/wordpress' },
                     { name: 'phpMyAdmin', href: '#' },
                 ],
             },
