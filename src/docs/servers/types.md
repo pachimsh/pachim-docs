@@ -29,7 +29,7 @@ title : 'انواع سرورها'
             <th>نوع</th>
             <th>Nginx</th>
             <th>PHP</th>
-            <th>MySQL / Postgres / MariaDB</th>
+            <th>MySQL / Postgres / MariaDB / MongoDB</th>
             <th>Redis, Memcached</th>
             <th>Node.js</th>
             <th>MeiliSearch</th>
@@ -110,7 +110,7 @@ title : 'انواع سرورها'
 
 - PHP
 - Nginx
-- MySQL/MariaDB/Postgres
+- MySQL/MariaDB/Postgres/MongoDB
 - Redis/Memcached
 - Node.js
 - Supervisor
@@ -149,6 +149,7 @@ title : 'انواع سرورها'
 
 - Mysql/MariaDB
 - Postgres
+- MongoDB
 
 ### سرور کش
 
