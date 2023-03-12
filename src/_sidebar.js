@@ -4,7 +4,7 @@ const navigation = [
         name: 'شروع مستندات',
         open : true,
         children: [
-            { name: 'معرفی پَچیم', href: '/getting-started/introduction' },
+            { name: 'معرفی پچّیم', href: '/getting-started/introduction' },
         ],
     },
     {

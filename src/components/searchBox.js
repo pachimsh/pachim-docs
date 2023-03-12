@@ -82,7 +82,7 @@ export default function SearchBox({ setShowSearchBox }) {
                                         <GlobeAmericasIcon className="mx-auto h-10 w-10 text-gray-400" aria-hidden="true" />
                                         <p className="mt-4 font-semibold text-gray-900">عنوان مورد نظر خود را وارد کنید</p>
                                         <p className="mt-2 text-gray-500">
-                                           دسترسی سریع به مستندات پَچیم
+                                           دسترسی سریع به مستندات پچّیم
                                         </p>
                                     </div>
                                 )}

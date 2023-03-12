@@ -15,7 +15,7 @@ function NotFound() {
                         <div className="text-center">
                             <p className="text-lg font-bold text-sky-700">404</p>
                             <h1 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">چنین صفحه‌ای یافت نشد</h1>
-                            <p className="mt-4 text-base text-gray-500">متاسفم، چنین صفحه‌ای در مستندات پَچیم وجود ندارد.</p>
+                            <p className="mt-4 text-base text-gray-500">متاسفم، چنین صفحه‌ای در مستندات پچّیم وجود ندارد.</p>
                             <div className="mt-6">
                                 <Link href="/">
                                     <a  className="text-base flex items-center justify-center cursor-pointer font-medium text-sky-700 hover:text-sky-500">
