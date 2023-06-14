@@ -21,6 +21,7 @@ title : "معرفی پَچیم"
 - [**Memcached**](/servers/caches)
 - [**Redis**](/servers/caches)
 - Meilisearch
+- سرورهای ایمیل
 - آپدیت‌های امنیتی
 - و کلی موارد دیگر
 

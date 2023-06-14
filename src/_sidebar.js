@@ -26,6 +26,7 @@ const navigation = [
             { name: 'انواع سرورها', href: '/servers/types' },
             { name: 'مدیریت', href: '/servers/managment' },
             { name: 'وضعیت سرویس‌ها', href: '/servers/server-services-status' },
+            { name: 'ارسال و دریافت ایمیل', href: '/servers/send-and-receive-mail' },
             { name : 'دستورالعمل‌ها' , href: '/servers/recipes'  } ,
             { name: 'دسترسی ROOT / امنیت', href: '/servers/root-access-and-security' },
             { name: 'کلید‌های SSH / دسترسی Git', href: '/servers/ssh' },
