@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
                   href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
                   rel="stylesheet"
                 />
-              <title>مستندات پَچیم</title>
+              <title>مستندات پچیم</title>
               <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLK36DH6JD"></script>
               <script type="text/javascript" src="/js/google-analytics.js" />
               <script async type="text/javascript" src="/js/pachim-support.js" />

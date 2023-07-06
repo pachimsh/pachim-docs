@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const resources = [
     {
-        name: 'پَچیم چیست',
+        name: 'پچیم چیست',
         href: `${process.env.PACHIM_MAIN_SITE}/#what-is-pachim`,
     },
     {
@@ -58,7 +58,7 @@ export default function Header() {
 
                     <div className="hidden md:flex items-center justify-end">
                         <a href={`${process.env.PACHIM_USER_APP_SITE}/auth/login`} target="_blank">
-                            <span className="mr-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-600 hover:bg-sky-700">ورود به پنل پَچیم</span>
+                            <span className="mr-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-600 hover:bg-sky-700">ورود به پنل پچیم</span>
                         </a>
                     </div>
                 </div>
