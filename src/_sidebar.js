@@ -71,6 +71,7 @@ const navigation = [
                     { name: 'Node.js', href: '/sites/app-deploy/nodejs' },
                     { name: 'Next.js', href: '/sites/app-deploy/nextjs' },
                     { name: 'Nuxt.js', href: '/sites/app-deploy/nuxtjs' },
+                    { name: 'Django', href: '/sites/app-deploy/django' },
                     { name: 'Static', href: '/sites/app-deploy/static' },
                     { name: 'Vue', href: '/sites/app-deploy/vue' },
                     { name: 'React', href: '/sites/app-deploy/react' },
