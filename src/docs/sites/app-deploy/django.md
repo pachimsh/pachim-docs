@@ -66,6 +66,20 @@ ALLOWED_HOSTS = [re.compile(r'^.*$')]
 
 با ایجاد یک سایت جنگو در پچیم و نصب مخزن گیت پروژه دستور `python3 manage.py collectstatic --noinput` به شکل پیش فرض در اسکریپت استقرار پروژه شما قرار می‌گیرد تا با هر بار استقرار این دستور یکبار اجرا شود، اگر به هر دلیل مایل نیستید این دستور اجرا شود می‌توانید آن را از اسکریپت استقرار پروژه خود حذف کنید.
 
+:::note{.danger}
+::title[نکته بسیار مهم]
+
+در صورتی که قصد اجرای دستور python3 manage.py collectstatic را دارید ابتدا باید به فایل settings.py مقدار STATIC_ROOT را اضافه کنید برای اینکار می‌توانید از مقدار زیر برای نمونه استفاده کنید.
+
+```python
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/3.1/howto/static-files/
+
+STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+```
+:::
+
 ## رفع خطای CORS
 
 درصورتی که Headerهای مربوط به CORS را با استفاده از پکیج [django-cors-headers](https://pypi.org/project/django-cors-headers/)، در Middleware برنامه‌ی خود تنظیم کرده‌اید باید CORS_ALLOWED_ORIGINS و CORS_ALLOW_METHODS را نیز در فایل settings.py تعریف کرده باشید:
