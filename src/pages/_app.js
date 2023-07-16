@@ -4,17 +4,10 @@ import "./../../styles/content-area.css";
 import React, { useEffect } from "react";
 import Head from "next/head";
 import NextNProgress from 'nextjs-progressbar';
-import TagManager from 'react-gtm-module'
-
-const tagManagerArgs = {
-    gtmId: 'GTM-TNNWXHS'
-}
 
 function MyApp({ Component, pageProps }) {
 
     useEffect(() => {
-        TagManager.initialize(tagManagerArgs)
-
         document.body.dir = 'rtl';
     }, []);
 
