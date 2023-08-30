@@ -22,7 +22,7 @@
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "marked": "^4.2.4",
-    "next": "12.0.7",
+    "next": "12.1.0",
     "nextjs-progressbar": "^0.0.16",
     "open": "^8.4.0",
     "react": "17.0.2",
