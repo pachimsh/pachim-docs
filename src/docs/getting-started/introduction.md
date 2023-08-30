@@ -30,7 +30,7 @@ title : "معرفی پچیم"
 
 ## آموزش ویدیویی 
 
-در [**مجموعه آموزشی راکت**](https://roocket.ir) ما دوره ویدیوی رایگانی را آماده کردیم با عنوان [**راه اندازی سرور و سایت با Pachim**](https://roocket.ir/series/server-managment-with-pachim) که می‌توانید به شکل ویدیویی هم با Pachim آشنا شوید و هم روش استفاده از آن را قدم به قدم فرا بگیرید. 
+در [**مجموعه آموزشی راکت**](https://roocket.ir/?utm_source=pachim&utm_medium=display&utm_campaign=document-pachim) ما دوره ویدیوی رایگانی را آماده کردیم با عنوان [**راه اندازی سرور و سایت با Pachim**](https://roocket.ir/series/server-managment-with-pachim) که می‌توانید به شکل ویدیویی هم با Pachim آشنا شوید و هم روش استفاده از آن را قدم به قدم فرا بگیرید. 
 
 ## آدرس IPهای پچیم 
 

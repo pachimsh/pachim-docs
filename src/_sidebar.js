@@ -1,5 +1,5 @@
 const navigation = [
-    { name: 'آموزش ویدیویی', href: 'https://roocket.ir/series/server-managment-with-pachim' },
+    { name: 'آموزش ویدیویی', href: 'https://roocket.ir/series/server-managment-with-pachim?utm_source=pachim&utm_medium=display&utm_campaign=document-pachim-amoozesh' },
     {
         name: 'شروع مستندات',
         open : true,
