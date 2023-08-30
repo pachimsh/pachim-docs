@@ -5,6 +5,7 @@ const navigation = [
         open : true,
         children: [
             { name: 'معرفی پچیم', href: '/getting-started/introduction' },
+            // { name: 'انتقال پروژه آنلاین به پچیم', href: '/getting-started/move-online-project-to-pachim' },
         ],
     },
     {
