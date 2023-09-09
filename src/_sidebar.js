@@ -86,6 +86,7 @@ const navigation = [
                     { name: 'phpMyAdmin', href: '#' },
                 ],
             },
+            { name: 'مانیتورینگ', href: '/sites/monitoring' },
             { name: 'استقرارها', href: '/sites/deployments' },
             { name: 'اجرای کامند', href: '/sites/commands' },
             { name: 'پکیج‌های PHP', href: '/sites/php-packages' },
