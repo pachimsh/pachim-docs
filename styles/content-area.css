@@ -102,11 +102,15 @@
 
 .content-area img,
 .content-area video,
-.content-area iframe {
+.content-area iframe:not(.h_iframe-aparat_embed_frame iframe) {
   @apply my-9 mx-6 m-auto;
   max-width: 100% !important;
   width: 100% !important;
   height: 100% !important;
+}
+
+.content-area .h_iframe-aparat_embed_frame {
+  @apply overflow-hidden rounded-md my-8;
 }
 
 .content-area a {
