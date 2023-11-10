@@ -7,6 +7,8 @@ title : 'مدیریت سرور'
 ### جدول محتوا
 
 ## تنظیمات سرور 
+<div id="88423409268"><script type="text/JavaScript" src="https://www.aparat.com/embed/RdfWx?data[rnddiv]=88423409268&data[responsive]=yes"></script></div>
+
 
  شما از طریق پنل پچیم و بخش تنظیمات سرور مي‌تواند موارد مختلفی از سرور  خود را تغییر دهید. که در زیر توضیحات لازم در مورد هر کدوم را به شما خواهیم داد.
 
