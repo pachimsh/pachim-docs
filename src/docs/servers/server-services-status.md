@@ -7,8 +7,7 @@ title : "وضعیت سرویس‌های سرور"
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="53273049357"><script type="text/JavaScript" src="https://www.aparat.com/embed/VZlUY?data[rnddiv]=53273049357&data[responsive]=yes"></script></div>
-
+<div id="82930764433"><script type="text/JavaScript" src="https://www.aparat.com/embed/vOubx?data[rnddiv]=82930764433&data[responsive]=yes"></script></div>
 
 هر سرور برای اجرا، دارای سرویس‌های مختلفی است که با فعال بودن هر کدام سرور شما می‌تواند کار خود را به درستی انجام دهید، شما در پچیم می‌توانید خیلی ساده لیست سرویس‌های مهم خود را در بخش وضعیت سرویس‌ها مشاهده و مدیریت کنید.
 
