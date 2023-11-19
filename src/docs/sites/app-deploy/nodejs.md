@@ -7,8 +7,7 @@ title : "راه‌اندازی پروژه node در سرور"
 ### جدول محتوا
 
 ## بررسی اجمالی 
-<div id="94418468881"><script type="text/JavaScript" src="https://www.aparat.com/embed/2w3xd?data[rnddiv]=94418468881&data[responsive]=yes"></script></div>
-
+<div id="52215296156"><script type="text/JavaScript" src="https://www.aparat.com/embed/1awIl?data[rnddiv]=52215296156&data[responsive]=yes"></script></div>
 
 اگر شما جز برنامه‌نویس‌های جاوااسکریپت هستید و احتمالا پرژه‌های مختلف node انجام می‌دهید برای راه‌اندازی و مدیریت سایت‌های خود، پچیم دقیقا همان ابزاری است که شما احتیاج دارید و ما به شما در این پلتفرم کمک می‌کنیم که بتوانید به سادگی پروژه‌های خود را بر روی سرورتان قرار دهید و بدون دغدغه تنها به توسعه برنامه خود فکر کنید.
 
