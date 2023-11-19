@@ -7,8 +7,7 @@ title : "اتصال دامنه به سایت"
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="29923019164"><script type="text/JavaScript" src="https://www.aparat.com/embed/Frvbi?data[rnddiv]=29923019164&data[responsive]=yes"></script></div>
-
+<div id="52273853106"><script type="text/JavaScript" src="https://www.aparat.com/embed/4a0T5?data[rnddiv]=52273853106&data[responsive]=yes"></script></div>
 
 زمانی که شما یک سایت را از طریق پنل پچیم به سرورتان اضافه می‌کنید برای آنکه آن سایت از طریق دامنه مورد نظرتان از طریق مرورگرها قابل دسترس باشد نیاز است دامنه را به سرورتان متصل کنید که در این صفحه قصد داریم انجام اینکار را به شما توضیح دهیم.
 

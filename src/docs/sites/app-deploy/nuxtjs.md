@@ -7,8 +7,7 @@ title : "راه‌اندازی پروژه Nuxt.js در سرور"
 ### جدول محتوا
 
 ## بررسی اجمالی 
-<div id="33281849691"><script type="text/JavaScript" src="https://www.aparat.com/embed/whMSP?data[rnddiv]=33281849691&data[responsive]=yes"></script></div>
-
+<div id="36660803901"><script type="text/JavaScript" src="https://www.aparat.com/embed/Q9idC?data[rnddiv]=36660803901&data[responsive]=yes"></script></div>
 
 Nuxt.js یک فریمورک Vue محسوب می‌شود که با استفاده از آن شما می‌توانید vue را به شکل SSR اجرا کنید. شما به سادگی با استفاده از پنل پچیم می‌توانید پروژ‌های Nuxt.js را در بر روی سرورتان راه‌اندازی کنید.
 

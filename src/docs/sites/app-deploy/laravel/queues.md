@@ -7,8 +7,7 @@ title : "صف‌ها"
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="90952157789"><script type="text/JavaScript" src="https://www.aparat.com/embed/tr40O?data[rnddiv]=90952157789&data[responsive]=yes"></script></div>
-
+<div id="73807875059"><script type="text/JavaScript" src="https://www.aparat.com/embed/fPev4?data[rnddiv]=73807875059&data[responsive]=yes"></script></div>
 
 زمانی که برنامه وبسایت خود را از نوع **لاراول** یا **لاراول octane** قرار دهید، پنل کاربری پچیم بخشی با عنوان صف‌ها را به شما نمایش می‌دهد. با استفاده از این بخش می‌توانید بسیار ساده برای پروژه لاراولی خود صف تعریف کنید. صفی که در این بخش تعریف می‌کنید توسط سرپرست سرور شما اجرا خواهد شد و هر زمان به هر دلیلی متوقف شود مجددا توسط سرپرست به حالت اجرا در خواهد آمد.
 
