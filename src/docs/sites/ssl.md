@@ -5,7 +5,7 @@ title : "مدیریت SSL"
 # مدیریت SSL
 
 ### جدول محتوا
-
+<div id="47256202608"><script type="text/JavaScript" src="https://www.aparat.com/embed/fLFJE?data[rnddiv]=47256202608&data[responsive]=yes"></script></div>
 ## بررسی اجمالی
 
 ما در پچیم از اهمیت استفاده از SSL برای سایت‌ها آگاه هستیم از این رو تمام سعی خود را کرده‌ایم تا به شکل کامل بحث SSL در پچیم را پوشش دهیم، از ارائه **SSL رایگان** گرفته تا قرار دادن **SSL شخصی**.
