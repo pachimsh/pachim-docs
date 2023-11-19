@@ -7,8 +7,7 @@ title : "برنامه PHP"
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="25713510366"><script type="text/JavaScript" src="https://www.aparat.com/embed/H5UAI?data[rnddiv]=25713510366&data[responsive]=yes"></script></div>
-
+<div id="45290255822"><script type="text/JavaScript" src="https://www.aparat.com/embed/HRKgz?data[rnddiv]=45290255822&data[responsive]=yes"></script></div>
 
 پچیم سعی می‌کند فضایی را آماده کند تا با استفاده از آن بتوانید برنامه‌های مختلفی را بر روی سرور خود بالا بیاورید، یکی از این دسته برنامه‌ها، برنامه‌های PHP است، که به سادگی می‌توانید یک وبسایت PHP با پچیم بالا آوردید و آن را مدیریت کنید.
 
