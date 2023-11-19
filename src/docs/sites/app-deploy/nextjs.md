@@ -7,6 +7,7 @@ title : "راه‌اندازی پروژه Next.js در سرور"
 ### جدول محتوا
 
 ## بررسی اجمالی 
+<div id="79119904387"><script type="text/JavaScript" src="https://www.aparat.com/embed/1btoI?data[rnddiv]=79119904387&data[responsive]=yes"></script></div>
 
 Next.js یک فریمورک React محسوب می‌شود که با استفاده از آن شما می‌توانید react را به شکل SSR اجرا کنید. شما به سادگی با استفاده از پنل پچیم می‌توانید پروژ‌های Next.js را در بر روی سرورتان راه‌اندازی کنید.
 

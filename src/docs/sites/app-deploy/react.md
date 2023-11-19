@@ -7,6 +7,7 @@ title : "راه‌اندازی پروژه react در سرور"
 ### جدول محتوا
 
 ## بررسی اجمالی
+<div id="92259369346"><script type="text/JavaScript" src="https://www.aparat.com/embed/R42Gq?data[rnddiv]=92259369346&data[responsive]=yes"></script></div>
 
 پروژه‌های که با react پیاده‌سازی شده‌اند و نه با next.js را می‌توانید به عنوان یک سایت static راه‌اندازی کنید چون هیچ نیازی به node.js برای راه‌اندازی ندارند و به سادگی با یک build راحت با استقرار می‌توانید سایت را در اختیار کاربرانتان قرار دهید.
 
