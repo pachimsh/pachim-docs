@@ -7,16 +7,14 @@ title : 'استقرارها'
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="27436933951"><script type="text/JavaScript" src="https://www.aparat.com/embed/1Ne8q?data[rnddiv]=27436933951&data[responsive]=yes"></script></div>
-
+<div id="67084394489"><script type="text/JavaScript" src="https://www.aparat.com/embed/830ZH?data[rnddiv]=67084394489&data[responsive]=yes"></script></div>
 
  استقرار به پروسه‌ای گفته می‌شود که کدهای پروژه شما از مخزن پروژه (معمولا در گیت‌هاب/ گیت‌لب/ گیت سفارشی) دریافت می‌شود و در سرورتان در دایرکتوری پروژه قرار می‌گیرد. 
  
 ما در پچیم خروجی ۱۰ استقرار آخر برنامه شما را ذخیره می‌کنیم تا از وضعیت استقرارهای خود از طریق پنل پچیم آگاه شوید و همچنین می‌توانید خروجی کد اسکریپت استقرار خود را نیز از طریق هر کدام مشاهده کنید، تا در صورت وجود مشکل، آن را بفهمید و حل کنید. 
 
 ## متغییرهای محیط‌ برنامه
-<div id="54189691809"><script type="text/JavaScript" src="https://www.aparat.com/embed/CO36r?data[rnddiv]=54189691809&data[responsive]=yes"></script></div>
-
+<div id="79065601152"><script type="text/JavaScript" src="https://www.aparat.com/embed/YR6PJ?data[rnddiv]=79065601152&data[responsive]=yes"></script></div>
 
 
 بعضی از برنامه‌ها و پروژه‌ها از قابلیت متغیرهای محیط برنامه استفاده می‌کنند که با استفاده از فایل `.env` در مسیر اصلی پروژه مورد استفاده قرار می‌گیرد، برای مثال در یک پروژه لاراول این فایل نقش اساسی را در پیکربندی پروژه انجام می‌دهد. برای همین در پنل سایت پچیم بخشی را بوجود آورده‌ایم با عنوان **متغییرهای محیط برنامه** که با استفاده از آن می‌توانید محتوای فایل `.env` را تغییر دهید و اگر این فایل اصلا وجود ندارد با استفاده از این بخش این فایل را با محتوای جدید ایجاد کنید. 
@@ -113,8 +111,7 @@ fi
 
 
 ## استقرار بدون اختلال (Zero Downtime Deployment)
-<div id="85377133483"><script type="text/JavaScript" src="https://www.aparat.com/embed/Mmn2l?data[rnddiv]=85377133483&data[responsive]=yes"></script></div>
-
+<div id="18320156407"><script type="text/JavaScript" src="https://www.aparat.com/embed/z8OBi?data[rnddiv]=18320156407&data[responsive]=yes"></script></div>
 
 این ویژگی به شما کمک می‌کند استقرارهای بدون اختلال داشته باشید (البته با توجه به اینکه اسکریپت استقرار شما درست کار کند). شاید برایتان سؤال شود که این استقرار بدون اختلال به چه معنی‌ست؟ 
 
