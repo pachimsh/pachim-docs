@@ -7,8 +7,7 @@ title : "php سرور"
 ### جدول محتوا
 
 ## بررسی اجمالی 
-<div id="93059558751"><script type="text/JavaScript" src="https://www.aparat.com/embed/H5UAI?data[rnddiv]=93059558751&data[responsive]=yes"></script></div>
-
+<div id="56673237917"><script type="text/JavaScript" src="https://www.aparat.com/embed/HRKgz?data[rnddiv]=56673237917&data[responsive]=yes"></script></div>
 
 یکی از مواردی که در پچیم توجه ویژه‌ای به آن داشته‌ایم موضوع نصب و مدیریت چندین ورژن از PHP به شکل همزمان بر روی سرورهای شماست. هر PHP که در سرور شما راه اندازی می‌شود FPM پردازشی خودش را دارد و شما هر زمان که مایل باشید می‌توانید از طریق پَنل پچیم [ورژن PHP سایت مورد نظر خود را آپدیت](http://sites/the-basics#ورژن-php) کنید.
 
