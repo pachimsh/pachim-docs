@@ -7,8 +7,8 @@ title : "لاگ‌های سایت"
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="43819456042"><script type="text/JavaScript" src="https://www.aparat.com/embed/TyLWm?data[rnddiv]=43819456042&data[responsive]=yes"></script></div>
 
+<div id="11128263277"><script type="text/JavaScript" src="https://www.aparat.com/embed/hcdHp?data[rnddiv]=11128263277&data[responsive]=yes"></script></div>
 
 زمانی که برنامه‌ای راه اندازی می‌شود بررسی کردن فایل‌های لاگ برنامه بسیار مهم است و به ما کمک می‌کند از ارور‌های که ممکن است در برنامه رخ دهد آگاه شویم، ما در پچیم بخشی در پنل سایت داریم با عنوان لاگ‌ها که با ورود به آن می‌توانید با بخش لاگ سرور کار کنید.
 

@@ -7,14 +7,12 @@ title : 'ارسال و دریافت ایمیل'
 ### جدول محتوا
 
 ## بررسی اجمالی
-<div id="99284412733"><script type="text/JavaScript" src="https://www.aparat.com/embed/RWjmV?data[rnddiv]=99284412733&data[responsive]=yes"></script></div>
-
+<div id="87468318578"><script type="text/JavaScript" src="https://www.aparat.com/embed/pRZJz?data[rnddiv]=87468318578&data[responsive]=yes"></script></div>
 
 اگر شما برای پروژه‌های خود نیاز به ارسال و دریافت ایمیل از طریق پنل آنلاین یا پروتکل‌های SMTP، POP3 و IMAP دارید، پچیم با راه‌اندازی سرورهای ایمیل به شما کمک می‌کند تا بتوانید به سادگی این کار را برای پروژه‌های خود انجام دهید. در این صفحه، قصد داریم پروسه و نکاتی که برای راه‌اندازی این نوع سرورها نیاز است را برایتان توضیح دهیم.
 
 ## راه‌اندازی سرور ایمیل
-<div id="59883531511"><script type="text/JavaScript" src="https://www.aparat.com/embed/xvNHp?data[rnddiv]=59883531511&data[responsive]=yes"></script></div>
-
+<div id="78131230693"><script type="text/JavaScript" src="https://www.aparat.com/embed/G0iZq?data[rnddiv]=78131230693&data[responsive]=yes"></script></div>
 
 برای راه‌اندازی کامل و موفق یک سرور ایمیل، در زیر قدم‌های ساده‌ای را برایتان شرح می‌دهیم تا با انجام آن‌ها بتوانید به راحتی سرور ایمیل خود را راه‌اندازی کنید.
 
@@ -54,8 +52,7 @@ title : 'ارسال و دریافت ایمیل'
 :::
 
 ### قدم چهارم : اضافه کردن دامنه و ثبت رکورد‌های DNS 
-<div id="71948654558"><script type="text/JavaScript" src="https://www.aparat.com/embed/7NEuT?data[rnddiv]=71948654558&data[responsive]=yes"></script></div>
-
+<div id="19565545520"><script type="text/JavaScript" src="https://www.aparat.com/embed/tsg8C?data[rnddiv]=19565545520&data[responsive]=yes"></script></div>
 
 شما می‌توانید بر اساس پلن اشتراک خود در پچیم چند دامنه به هر سرور ایمیل خود اضافه کنید و به شکل همزمان از یک سرور با چند دامنه استفاده کنید. برای اینکار وارد پنل پچیم شوید و به بخش دامنه‌های ایمیل مراجعه کنید.
 
@@ -66,16 +63,14 @@ title : 'ارسال و دریافت ایمیل'
 در صورت اینکه ۴ رکورد مورد نیاز را به دامنه مورد نظرتان اضافه کنید، دامنه مورد نظر به حالت آماده ارسال 
 
 ### قدم پنجم : فعال سازی SSL 
-<div id="98906442279"><script type="text/JavaScript" src="https://www.aparat.com/embed/Nm6pv?data[rnddiv]=98906442279&data[responsive]=yes"></script></div>
-
+<div id="68663720952"><script type="text/JavaScript" src="https://www.aparat.com/embed/OaXqB?data[rnddiv]=68663720952&data[responsive]=yes"></script></div>
 
 برای آنکه ایمیل‌های شما در امنیت کامل ارسال و دریافت شود و همچنین پنل آنلاین ایمیل شما نیز امنیت مناسبی داشته باشد نیاز است که شما یک SSL برای سرور ایمیل فعال کنید، برای انجام اینکار کافیست وارد قسمت اطلاعات ایمیل سرور شوید و بر روی دامنه webmail خود کلیک کنید. بعد از کلیک مستقیما وارد صفحه مدیریت SSL های webmail می‌شوید که در این صفحه می‌توانید یک SSL اضافه یا SSL های قبلی را مدیریت کنید.
 
 برای اطلاعات کامل‌تر در مورد گواهی SSL و مدیریت آن می‌توانید به بخش مستندات [گواهی SSL](/sites/ssl) مراجعه کنید.
 
 ### قدم ششم : ساخت اکانت ایمیل 
-<div id="64979606623"><script type="text/JavaScript" src="https://www.aparat.com/embed/ojvX5?data[rnddiv]=64979606623&data[responsive]=yes"></script></div>
-
+<div id="89143880081"><script type="text/JavaScript" src="https://www.aparat.com/embed/Lwr6P?data[rnddiv]=89143880081&data[responsive]=yes"></script></div>
 
 برای آنکه بتوانید ایمیل ارسال یا دریافت کنید نیاز است که اکانت ایمیل بسازید که برای اینکار می‌توانید وارد بخش "**پنل سرور > اکانت‌های ایمیل**" شوید و از طریق این بخش اکانت ایمیل جدید بسازید یا اکانت‌های قبلی را مدیریت کنید.
 
@@ -105,14 +100,12 @@ title : 'ارسال و دریافت ایمیل'
 
 
 ## ارسال ایمیل از طریق SMTP 
-<div id="45832462558"><script type="text/JavaScript" src="https://www.aparat.com/embed/dHrGt?data[rnddiv]=45832462558&data[responsive]=yes"></script></div>
-
+<div id="84023001758"><script type="text/JavaScript" src="https://www.aparat.com/embed/mi1bh?data[rnddiv]=84023001758&data[responsive]=yes"></script></div>
 
 برای ارسال ایمیل از طریق پروتکل SMTP از طریق برنامه‌های خود تنها کافیست وارد پنل آنلاین سرور ایمیل خود شوید، با نام کاربری و پسورد مورد نظرتان لاگین کنید و بر روی دکمه Help کلیک کنید، بعد از کلیک می‌توانید اطلاعات لازم برای استفاده از SMTP را مشاهده کنید.
 
 ### نکاتی مهم برای ارسال صحیح ایمیل‌ها به Inbox
-<div id="49019111935"><script type="text/JavaScript" src="https://www.aparat.com/embed/a7p3z?data[rnddiv]=49019111935&data[responsive]=yes"></script></div>
-
+<div id="63604643860"><script type="text/JavaScript" src="https://www.aparat.com/embed/cmRvt?data[rnddiv]=63604643860&data[responsive]=yes"></script></div>
 
 اگر واقع بین باشیم در صورت اینکه ایمیل‌ها به Inbox افراد مورد نظر شما نرسند داشتن یک سرور ایمیل چه فایده‌ای دارد؟ برای ارسال موفق ایمیل به Inbox تنها داشتن یک سرور ایمیل کافی نیست و شما باید به یک سری از موارد هم بسیار دقت کنید.
 
@@ -147,6 +140,7 @@ title : 'ارسال و دریافت ایمیل'
     این موضوع شاید در نگاه اول از نظر شما مهم نباشد اما ارسال ایمیل همیشه نیاز به یک ارسال کننده با یک آدرس ایمیل مشخص دارد، اگر نام مناسبی انتخاب نکرده باشید، می‌تواند باعث شود دریافت کننده‌های ایمیل به سرور ایمیل شما حساس شوند و مشکلات مختلفی در مراحل بعدی برای شما ایجاد کنند. بنابراین اسامی ایمیل خود را به درستی انتخاب کنید و حتما نام‌ها به شکل لاتین باشد.
 
 ## دریافت ایمیل از طریق POP3 و IMAP
+<div id="82454259778"><script type="text/JavaScript" src="https://www.aparat.com/embed/uI43P?data[rnddiv]=82454259778&data[responsive]=yes"></script></div>
 
 در کنار اینکه شما می‌توانید در پنل webmail ایمیل ارسال یا دریافت کنید، شاید نیاز به آن داشته باشید که این ایمیل‌ها را در جاهای دیگری نیز دریافت کنید با استفاده از پروتکل‌های POP3 و IMAP می‌توانید به سادگی چنین کاری انجام دهید.
 
