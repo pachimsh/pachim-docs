@@ -7,8 +7,7 @@ title : "زمانبندی (Scheduler)"
 ### جدول محتوا
 
 ## کارهای زمانبدی شده
-<div id="99982444439"><script type="text/JavaScript" src="https://www.aparat.com/embed/mViBh?data[rnddiv]=99982444439&data[responsive]=yes"></script></div>
-
+<div id="66496087364"><script type="text/JavaScript" src="https://www.aparat.com/embed/fjgso?data[rnddiv]=66496087364&data[responsive]=yes"></script></div>
 
 همانطور که از عنوان هم مشخص است شما با استفاده از ویژگی زمانبدی می‌توانید دستورات ترمینالی را در بازه‌های زمانی مختلف بر روی سرور خود اجرا کنید.  مدیریت کردن این بخش بسیار ساده‌ است، انقدر ساده که نیاز به توضیح خاصی ندارد، با این حال بخش‌های از آن را به شما توضیح خواهیم داد.
 
