@@ -7,6 +7,8 @@ title : 'کلید SSH'
 ### جدول محتوا 
 
 ## معرفی
+<div id="63141646081"><script type="text/JavaScript" src="https://www.aparat.com/embed/JUXPT?data[rnddiv]=63141646081&data[responsive]=yes"></script></div>
+
 
 ssh پروتکل معرفی است که به شما این اجازه را می‌دهد که از طریق ترمینال (Command Line) سیستم عامل خود به سرور مورد نظرتان متصل شوید. 
 حالا نقش کلیدهای SSH ایجا مشخص می‌شود، این کلیدها برای احرازهویت پروتکل ssh مورد استفاده قرار می‌گیرند.
