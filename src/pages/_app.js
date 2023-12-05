@@ -25,6 +25,7 @@ function MyApp({ Component, pageProps }) {
                   rel="stylesheet"
                 />
               <title>مستندات پچیم</title>
+              <meta name="robots" content="noindex"/>
               <script
                   type="text/javascript"
                   async
