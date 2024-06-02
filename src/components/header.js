@@ -1,3 +1,4 @@
+'use client';
 import {Popover, Transition} from "@headlessui/react";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid";
 import {Fragment} from "react";
@@ -34,9 +35,9 @@ export default function Header() {
                 <div className="flex justify-between items-center py-6">
                     <div className="flex justify-start items-center">
                         <Link href={`${process.env.PACHIM_MAIN_SITE}`}>
-                            <a>
+                            <span>
                                 <Logo className={`w-48 md:w-64`} />
-                            </a>
+                            </span>
                         </Link>
                         <nav className="hidden md:flex space-x-10 space-x-reverse mr-10">
                             {resources.map((item) => (
@@ -44,7 +45,7 @@ export default function Header() {
                                     key={item.name}
                                     href={item.href}
                                 >
-                                    <a className={`text-base font-medium text-gray-500 hover:text-gray-900 ${item?.className}`}>{item.name}</a>
+                                    <span className={`text-base font-medium text-gray-500 hover:text-gray-900 ${item?.className}`}>{item.name}</span>
                                 </Link>
                             ))}
                         </nav>
@@ -96,18 +97,18 @@ export default function Header() {
                                         key={item.name}
                                         href={item.href}
                                     >
-                                        <a className="text-base font-medium text-gray-900 hover:text-gray-700">{item.name}</a>
+                                        <span className="text-base font-medium text-gray-900 hover:text-gray-700">{item.name}</span>
                                     </Link>
                                 ))}
                             </div>
                             <div>
                                 <Link href={`${process.env.PACHIM_USER_APP_SITE}/auth/register`}>
-                                    <a className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-600 hover:bg-sky-700">ایجاد حساب کاربری</a>
+                                    <span className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-600 hover:bg-sky-700">ایجاد حساب کاربری</span>
                                 </Link>
                                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                                     در پچیم اکانت دارید؟{' '}
                                     <Link href={`${process.env.PACHIM_USER_APP_SITE}/auth/login`} >
-                                        <a className="text-sky-600 hover:text-sky-500">ورود</a>
+                                        <span className="text-sky-600 hover:text-sky-500">ورود</span>
                                     </Link>
                                 </p>
                             </div>

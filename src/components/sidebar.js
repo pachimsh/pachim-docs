@@ -1,7 +1,8 @@
+'use client';
 import { Disclosure } from '@headlessui/react'
 import Link from "next/link";
 import {ChevronDownIcon, ChevronLeftIcon, MagnifyingGlassIcon, MinusSmallIcon} from "@heroicons/react/24/outline";
-import {useRouter} from "next/router";
+import {usePathname} from "next/navigation";
 import {checkSidebarItemIsActive} from "../helpers";
 import navigation from "../_sidebar";
 import {useState} from "react";
@@ -10,7 +11,8 @@ import SearchBox from "./searchBox";
 export default function Sidebar() {
     const [showSearchBox , setShowSearchBox] = useState(false);
 
-    const { asPath } = useRouter();
+    const  asPath  = usePathname();
+
     const route = asPath.split('#')[0];
 
     const printCategoryChildren = (item , index) => {
@@ -49,7 +51,7 @@ export default function Sidebar() {
                         <div className={`${route === item.href ? 'font-bold text-sky-700' : ''} flex items-center`}>
                             <MinusSmallIcon className="w-3 h-3 ml-2" />
                             <Link href={item?.href}>
-                                <a>{item?.name}</a>
+                                <span>{item?.name}</span>
                             </Link>
                         </div>
                     )
