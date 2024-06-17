@@ -9,6 +9,9 @@ function MyApp({ Component, pageProps }) {
 
     useEffect(() => {
         document.body.dir = 'rtl';
+        var link = document.createElement('meta');
+        link.setAttribute('property', 'og:title');
+        link.content = "مستندات پچیم";
     }, []);
 
     const getLayout = Component.getLayout || ((page) => page)

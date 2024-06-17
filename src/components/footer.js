@@ -1,3 +1,4 @@
+'use client';
 import Link from "next/link";
 
 const navigation = {
@@ -70,9 +71,9 @@ export default function Footer() {
                     {navigation.main.map((item) => (
                         <div key={item.name} className="px-5 py-2">
                             <Link href={item.href}>
-                                <a  className="text-base text-gray-500 hover:text-gray-900">
+                                <span  className="text-base text-gray-500 hover:text-gray-900">
                                     {item.name}
-                                </a>
+                                </span>
                             </Link>
                         </div>
                     ))}
