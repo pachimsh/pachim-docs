@@ -29,7 +29,54 @@ title : "راه‌اندازی پروژه لاراول"
 
 ## راه‌اندازی Laravel Octane
 
-لاراول Octane پکیج رسمی لاراول است که افرادی که با لاراول کار می‌کنند آن را به خوبی می‌شناسند ما هم در پچیم آن را به خوبی میشناسیم برای همین این امکان را در پنل لاراول پچیم برای‌تان به‌وجود آوردیم که با مشخص کردن اطلاعات مورد نیاز خود برای Laravel Octane بتوانید به سادگی آن را بر روی وبسایت خود راه اندازی کنید.
+لاراول Octane پکیج رسمی لاراول است که افرادی که با لاراول کار می‌کنند آن را به خوبی می‌شناسند ما هم در پچیم آن را به خوبی میشناسیم برای همین این امکان را در پنل لاراول پچیم برای‌تان به‌وجود آوردیم که با مشخص کردن اطلاعات مورد نیاز خود برای Laravel Octane بتوانید به سادگی آن را بر روی وبسایت خود راه‌اندازی کنید.
+
+## راه‌اندازی Laravel Reverb
+
+اگر بر روی پروژه خود Laravel Reverb را نصب کرده‌اید با قدم‌های که در زیر توضیح می‌دهیم میتوانید به سادگی از طریق پچیم آن را بر روی سایت خود راه‌اندازی کاگر در پروژه خود Laravel Reverb را نصب کرده‌اید، با مراحل زیر می‌توانید به راحتی آن را بر روی سایت خود راه‌اندازی کنید.
+
+ابتدا باید اطمینان حاصل کنید که پکیج Laravel Reverb بر روی پروژه شما نصب و راه‌اندازی شده است. همچنین پس از قرار دادن سایت خود در پچیم، مطمئن شوید که اسکریپت استقرار شما که شامل composer install است، به درستی بر روی سایت شما اجرا شده باشد.
+
+```bash
+php artisan install:broadcasting
+```
+در مرحله دوم، وارد بخش Laravel در پنل پچیم سایت خود شوید و از قسمت مدیریت Laravel Reverb روی "راه‌اندازی Reverb" کلیک کنید. اگر پکیج‌های Composer به درستی نصب شده باشند، Reverb بدون مشکل بر روی سایت شما راه‌اندازی خواهد شد.
+
+برای استفاده از Reverb به عنوان WebSocket، از طریق قسمت "ایجاد سایت" یک سایت Domain Proxy ایجاد کنید. به عنوان مثال، اگر دامنه شما example.com است، دامنه‌ای با عنوان socket.example.com در نظر بگیرید و پورت مربوط به آن را همان پورتی قرار دهید که در بخش راه‌اندازی Laravel Reverb مشخص کرده‌اید.
+
+مطمئن شوید که تنظیمات محیطی (Environment Variables) در فایل .env شما به درستی پیکربندی شده‌اند:
+
+```makefile
+VITE_REVERB_APP_KEY=your-app-key
+VITE_REVERB_HOST=socket.example.com
+VITE_REVERB_PORT=8080
+VITE_REVERB_SCHEME=https
+```
+
+پس از انجام مراحل فوق، می‌توانید به سادگی با قرار دادن تنظیمات در Echo پروژه خود از Laravel Reverb استفاده کنید.
+
+### راهنمایی راه‌اندازی Reverb در فرانت‌اند
+پس از انجام مراحل بالا، می‌توانید از طریق تنظیمات زیر از Laravel Reverb استفاده کنید.
+
+```javascript
+window.Echo = new Echo({
+    broadcaster: 'reverb',
+    key: import.meta.env.VITE_REVERB_APP_KEY,
+    wsHost: import.meta.env.VITE_REVERB_HOST, // socket.example.com
+    wsPort: import.meta.env.VITE_REVERB_PORT ?? 80,
+    wssPort: import.meta.env.VITE_REVERB_PORT ?? 443,
+    forceTLS: (import.meta.env.VITE_REVERB_SCHEME ?? 'https') === 'https',
+    enabledTransports: ['ws', 'wss'],
+});
+```
+:::note{.warning}
+::title[نکته بسیار مهم]
+
+در صورتی که برای دامنه socket.example.com از طریق پچیم SSL را فعال کرده‌اید (که ما پیشنهاد می‌کنیم برای افزایش امنیت حتما این کار را انجام دهید)، می‌توانید forceTLS را برابر با https قرار دهید.
+:::
+
+با این تنظیمات، Laravel Reverb به درستی در پروژه شما راه‌اندازی خواهد شد. برای مستندات بیشتر می‌توانید به [مستندات رسمی Laravel](https://laravel.com/docs) و [مستندات Laravel Reverb](https://laravel.com/docs/master/reverb) مراجعه کنید.
+
 
 ## مدیریت InertiaJS SSR
 
