@@ -84,7 +84,7 @@ title : 'انواع سرورها'
             <td align="middle">✅</td>
             <td align="middle"></td>
             <td align="middle"></td>
-            <td align="middle"></td>
+            <td align="middle">✅</td>
             <td align="middle"></td>
             <td align="middle"></td>
         </tr>
@@ -192,6 +192,8 @@ title : 'انواع سرورها'
 در یک سرور کارگر خبری از Nginx و درخواست‌های وب نیست و موارد زیر تنها بر روی آن نصب می‌شوند:
 
 - PHP
+- Node.js
+- Python
 - Supervisor
 
 ### سرور Meiliserch
