@@ -5,4 +5,13 @@ module.exports = {
         PACHIM_USER_APP_SITE : process.env.PACHIM_USER_APP_SITE,
         PACHIM_DOCS_SITE : process.env.PACHIM_DOCS_SITE,
     },
+    redirects() {
+        return [
+            {
+                source: '/',
+                destination: '/getting-started/introduction',
+                permanent: true,
+            },
+        ]
+    },
 }
