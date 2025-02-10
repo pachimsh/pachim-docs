@@ -1,9 +1,10 @@
+'use client';
 import {Fragment, useState} from 'react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import {ArrowPathIcon, FaceFrownIcon, GlobeAmericasIcon} from '@heroicons/react/24/outline'
 import { Combobox, Dialog, Transition } from '@headlessui/react'
 import {debounce} from "lodash";
-import {useRouter} from "next/router";
+import {useRouter} from "next/navigation";
 
 export default function SearchBox({ setShowSearchBox }) {
     const [query, setQuery] = useState('')
@@ -14,7 +15,7 @@ export default function SearchBox({ setShowSearchBox }) {
     const sendSearchRequestQuery = async (query) => {
         try {
             setSearchLoading(true);
-            let res = await fetch(`/api/search?q=${query}`);
+            let res = await fetch(`/api/?q=${query}`);
             let { results } = await res.json();
             setSearchResults(results ?? [])
         } catch (e) {
